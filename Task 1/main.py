@@ -17,9 +17,4 @@ def count_unit_source(file_path):
     print("INTER-", count_inter)
     print("INTRA-", count_intra)
     print("Not Defined-", count_not_defined)
-    return {
-        "INTER":count_inter,
-        "INTRA":count_intra,
-        "Not Defined":count_not_defined
-    }
 count_unit_source(file_path)
